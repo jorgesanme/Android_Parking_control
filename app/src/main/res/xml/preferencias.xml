@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:background="@color/colorPrimary">
+        <ListPreference
+
+            android:entries="@array/tiposGuardar"
+            android:entryValues="@array/tiposGuardarValores"
+            android:key="Almacenar"
+            android:summary="@string/texto_bbdd"
+            android:title="@string/titulo_bbdd"
+            android:defaultValue="1"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

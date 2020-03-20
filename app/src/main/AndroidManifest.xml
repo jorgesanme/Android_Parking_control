@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jorge.crud_parking_control">
+    <!-- determinar la version minima de SDK para conectar internet -->
+    <!--<uses-sdk android:minSdkVersion="9"/> -->
+    <!-- Se solicita permiso para usar socket PHP_MySql-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_mi_icono"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".InsertarRegistro"
+            android:label="@string/button_insertar"
+            />
+        <activity android:name=".ModificarRegistro"
+            android:label="@string/button_modificar"
+            />
+        <activity android:name=".EliminarRegistro"
+            android:label="@string/button_borrar"
+            />
+        <activity android:name=".usuarios"
+            android:label="@string/button_mostrar"
+            />
+        <activity android:name=".PreferenciasActivity"
+            android:label="@string/preferencias"
+            />
+    </application>
+
+</manifest>

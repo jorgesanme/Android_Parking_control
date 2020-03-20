@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2sp"
+        android:layout_marginBottom="2sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/button_modificar"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8sp"
+            android:layout_marginTop="4sp"
+            android:layout_marginRight="8sp"
+            android:layout_marginBottom="2sp"
+            android:paddingLeft="1sp"
+            android:paddingRight="1sp"
+            android:text="@string/nombre"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText_NOMBRE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8sp"
+            android:layout_marginTop="2sp"
+            android:layout_marginRight="8sp"
+            android:background="@android:color/darker_gray"
+            android:ems="10"
+            android:enabled="true"
+            android:hint="@string/nombre"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:paddingLeft="8sp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8sp"
+            android:layout_marginTop="4sp"
+            android:layout_marginRight="8sp"
+            android:layout_marginBottom="2sp"
+            android:paddingLeft="1sp"
+            android:paddingRight="1sp"
+            android:text="@string/apellidos"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText_APELLIDOS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8sp"
+            android:layout_marginTop="2sp"
+            android:layout_marginRight="8sp"
+            android:background="@android:color/darker_gray"
+            android:ems="10"
+            android:hint="@string/apellidos"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName|text"
+            android:paddingLeft="8sp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8sp"
+            android:layout_marginTop="4sp"
+            android:layout_marginRight="8sp"
+            android:layout_marginBottom="2sp"
+            android:paddingLeft="1sp"
+            android:paddingRight="1sp"
+            android:text="@string/vehiculo"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText_MARCA_MODELO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8sp"
+            android:layout_marginTop="2sp"
+            android:layout_marginRight="8sp"
+            android:background="@android:color/darker_gray"
+            android:ems="10"
+            android:hint="@string/vehiculo"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:paddingLeft="8sp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8sp"
+            android:layout_marginTop="4sp"
+            android:layout_marginRight="8sp"
+            android:layout_marginBottom="2sp"
+            android:paddingLeft="1sp"
+            android:paddingRight="1sp"
+            android:text="@string/matricula"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText_MATRICULA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8sp"
+            android:layout_marginTop="2sp"
+            android:layout_marginRight="8sp"
+            android:background="@android:color/darker_gray"
+            android:ems="10"
+            android:hint="@string/matricula"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:paddingLeft="8sp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8sp"
+            android:layout_marginTop="4sp"
+            android:layout_marginRight="8sp"
+            android:layout_marginBottom="2sp"
+            android:paddingLeft="1sp"
+            android:paddingRight="1sp"
+            android:text="@string/Plaza_Parking"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText_Nº_PLAZA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8sp"
+            android:layout_marginTop="2sp"
+            android:layout_marginRight="8sp"
+            android:background="@android:color/darker_gray"
+            android:ems="10"
+            android:hint="@string/Plaza_Parking"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:paddingLeft="8sp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8sp"
+            android:layout_marginTop="4sp"
+            android:layout_marginRight="8sp"
+            android:layout_marginBottom="2sp"
+            android:paddingLeft="1sp"
+            android:paddingRight="1sp"
+            android:text="@string/id_mando"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText_MANDO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8sp"
+            android:layout_marginTop="2sp"
+            android:layout_marginRight="8sp"
+            android:background="@android:color/darker_gray"
+            android:ems="10"
+            android:hint="#3f45-12345"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:paddingLeft="8sp"
+            android:textSize="20sp" />
+
+        <Switch
+            android:id="@+id/Insert_activo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8sp"
+            android:layout_marginTop="2sp"
+            android:layout_marginRight="8sp"
+            android:switchMinWidth="60sp"
+            android:text="@string/Activar_mando"
+            android:textOff="false"
+            android:textOn="true"
+            android:textSize="20sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/Insertar_Boton_insertar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16sp"
+                    android:text="@string/button_modificar"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/Insertar_Boton_descartar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16sp"
+                    android:onClick="lanzarMostrar"
+                    android:text="@string/button_Descartar"
+                    android:textSize="16sp" />
+            </TableRow>
+
+        </TableLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

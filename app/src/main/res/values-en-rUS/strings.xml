@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Garage control interface</string>
+    <string name="button_insertar">Insert</string>
+    <string name="button_modificar">Modify</string>
+    <string name="button_borrar">Delete</string>
+    <string name="button_mostrar">Show all</string>
+    <string name="salir">Exit</string>
+    <string name="preferencias">Preference</string>
+    <string name="confirmar">Confirm</string>
+    <string name="Activar_mando">Activate remote </string>
+    <string name="button_Descartar">Discard</string>
+    <!-- textos de preferencias-->
+    <string name="titulo">Select an option please</string>
+    <string name="titulo_bbdd">Databases </string>
+    <string name="texto_bbdd">Would you like to use the local database or the office database through the Internet? </string>
+    <string name="item_local">LOCAL - Only the data on your device </string>
+    <string name="item_oficina">OFFICE - Data saved on the internet </string>
+
+    <!-- textos de las variables  -->
+    <string name="nombre">First Name</string>
+    <string name="apellidos">Surname</string>
+    <string name="vehiculo">Car brand and Model</string>
+    <string name="matricula">Car registration number</string>
+    <string name="Plaza_Parking">Parking number</string>
+    <string name="id_mando">Remote number</string>
+    <string name="eliminado">SUCCESSFULLY REMOVED</string>
+    <string name="modificado">SUCCESSFULLY MODIFIED</string>
+
+</resources>

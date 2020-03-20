@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp">
+
+
+    <TextView
+        android:id="@+id/Bienvenida"
+        android:layout_width="665dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="clip_horizontal|center_horizontal"
+        android:layout_marginTop="16sp"
+        android:gravity="center|center_horizontal"
+        android:text="@string/titulo"
+        android:textSize="18sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal"
+        android:layout_marginTop="16sp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/Main_boton_Insertar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="lanzarInsertar"
+                android:text="@string/button_insertar" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:id="@+id/Main_boton_mostrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="lanzarMostrar"
+                android:text="@string/button_mostrar" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:id="@+id/Main_boton_preferencias"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="lanzarPreferencias"
+                android:text="@string/preferencias" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:gravity="center">
+
+
+            <Button
+                android:id="@+id/Main_boton_Salir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/salir" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
+    <!-- -->
+
+
+
+
+
+
+

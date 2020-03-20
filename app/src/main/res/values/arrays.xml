@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tiposGuardar">
+        <item>@string/item_local </item>
+        <item>@string/item_oficina</item>
+    </string-array>
+    <string-array name="tiposGuardarValores">
+        <item>1</item>
+        <item>2</item>
+
+    </string-array>
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Interfaz de mando de garaje</string>
+    <string name="button_insertar">Insertar</string>
+    <string name="button_modificar">Modificar</string>
+    <string name="button_borrar">Eliminar</string>
+    <string name="button_mostrar">Mostrar todo</string>
+    <string name="salir">Salir</string>
+    <string name="preferencias">Preferencias</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="Activar_mando">Activar Mando</string>
+    <string name="button_Descartar">Descartar</string>
+    <!-- textos de preferencias-->
+    <string name="titulo">Por favor, selecciones una opción </string>
+    <string name="titulo_bbdd">Bases de Datos </string>
+    <string name="texto_bbdd">¿Desea usar la BBDD local o la de oficia a travez Internet? </string>
+    <string name="item_local">LOCAL - Solo los datos de su dispositivo </string>
+    <string name="item_oficina">OFICINA - Los datos Guardados en internet </string>
+
+    <!-- TExto del Toast -->
+    <string name="eliminado">ELIMINADO CON EXITO </string>
+    <string name="modificado">MODIFICADO CON EXITO </string>
+
+
+    <!-- textos de las variables  -->
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="vehiculo">Marca/modelo</string>
+    <string name="matricula">Matricula</string>
+    <string name="Plaza_Parking">Nº Plaza</string>
+    <string name="id_mando">Mando</string>
+</resources>

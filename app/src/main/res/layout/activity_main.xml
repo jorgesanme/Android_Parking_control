@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Bienvenida"
+        android:layout_width="376dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="@string/titulo"
+        android:textColor="#F5F4F1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Main_boton_Insertar"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:onClick="lanzarInsertar"
+        android:text="@string/button_insertar"
+        app:layout_constraintEnd_toEndOf="@+id/Bienvenida"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="@+id/Bienvenida"
+        app:layout_constraintTop_toBottomOf="@+id/Bienvenida" />
+
+    <Button
+        android:id="@+id/Main_boton_mostrar"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:onClick="lanzarMostrar"
+        android:text="@string/button_mostrar"
+        app:layout_constraintEnd_toEndOf="@+id/Main_boton_Insertar"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/Main_boton_Insertar"
+        app:layout_constraintTop_toBottomOf="@+id/Main_boton_Insertar" />
+
+    <Button
+        android:id="@+id/Main_boton_preferencias"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:onClick="lanzarPreferencias"
+        android:text="@string/preferencias"
+        app:layout_constraintEnd_toEndOf="@+id/Main_boton_mostrar"
+        app:layout_constraintStart_toStartOf="@+id/Main_boton_mostrar"
+        app:layout_constraintTop_toBottomOf="@+id/Main_boton_mostrar" />
+
+    <Button
+        android:id="@+id/Main_boton_Salir"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="36dp"
+        android:text="@string/salir"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/Main_boton_preferencias"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Main_boton_preferencias"
+        app:layout_constraintTop_toBottomOf="@+id/Main_boton_preferencias"
+        app:layout_constraintVertical_bias="0.38" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
